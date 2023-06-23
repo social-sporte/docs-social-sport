@@ -14,7 +14,7 @@
   name = "Regra negócio"
   weight = 60
   identifier = "regras"
-  url = "/docs/regras/"
+  url = "/docs/regras/" 
 
 # [[docs]]
 #   name = "Lorem"
