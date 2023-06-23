@@ -6,8 +6,8 @@
     </div>
     <div class="col-lg-9 col-xl-8 text-center">
       <p class="lead">{{ .Params.lead | safeHTML }}</p>
-      <a class="btn btn-primary btn-lg px-4 mb-2" href="/docs/{{ if .Site.Params.options.docsVersioning }}{{ .Site.Params.docsVersion }}/{{ end }}prologue/introduction/" role="button">{{ i18n "get-started" }}</a>
-      <p class="meta">Open-source MIT Licensed. <a href="https://github.com/h-enk/doks">GitHub v{{ $data := getJSON "/package.json" }}{{ $data.version }}</a></p>
+      <a class="btn btn-primary btn-lg px-4 mb-2" href="/docs/{{ if .Site.Params.options.docsVersioning }}{{ .Site.Params.docsVersion }}/{{ end }}spring-boot/introduction/" role="button">{{ i18n "get-started" }}</a>
+      <p class="meta"> <a href="https://github.com/social-sporte/social-sporte-api">GitHub v{{ $data := getJSON "/package.json" }}{{ $data.version }}</a></p>
     </div>
   </div>
 </section>
@@ -19,31 +19,31 @@
     <div class="container">
       <div class="row justify-content-center text-center">
         <div class="col-lg-5">
-          <h2 class="h4">Security aware</h2>
-          <p>Get A+ scores on <a href="https://observatory.mozilla.org/analyze/doks.netlify.app">Mozilla Observatory</a> out of the box. Easily change the default Security Headers to suit your needs.</p>
+          <h2 class="h4">Spring Boot</h2>
+          <p>Framework JAVA que oferece facilidade no desenvolvimento de APIS Rest HTTP, na comunicação com a base dedados e na integração com sistemas parceiros.</p>
+          
         </div>
         <div class="col-lg-5">
-          <h2 class="h4">Fast by default ⚡️</h2>
-          <p>Get 100 scores on <a href="https://googlechrome.github.io/lighthouse/viewer/?gist=59aafe464a68f8bc30b8e9a636d5b053">Google Lighthouse</a> by default. Doks removes unused css, prefetches links, and lazy loads images.</p>
+          <h2 class="h4">Swagger</h2>
+          <p><a href="https://social-sport-api.herokuapp.com/swagger-ui.html">Documentação técnica</a> da API contendo os dados dos contratos de comunicação com as aplicações front-end.</p>
         </div>
         <div class="col-lg-5">
-          <h2 class="h4">SEO-ready</h2>
-          <p>Use sensible defaults for structured data, open graph, and Twitter cards. Or easily change the SEO settings to your liking.</p>
+          <h2 class="h4">Base de dados</h2>
+          <p>Banco de dados PostgresSQL para armazenar e gerenciar os dados de segurança, centro esportivos, atletas e configurações de sistema.</p>
         </div>
       </div>
       <div class="row justify-content-center text-center">
         <div class="col-lg-5">
-          <h2 class="h4">Full text search</h2>
-          <p>Search your Doks site with FlexSearch. Easily customize index settings and search options to your liking.</p>
+          <h2 class="h4">Segurança</h2>
+          <p>Utiliza Spring Security para gerar token JWT, os dados de usuários e senha criptografada são salvos na base postgresSQL.</p>
         </div>
         <div class="col-lg-5">
-          <h2 class="h4">Page layouts</h2>
-          <p>Build pages with a landing page, blog, or documentation layout. Add custom sections and components to suit your needs.</p>
+          <h2 class="h4">Repositório de imagens</h2>
+          <p>Para armazenar imagens o Social Sport Api integra com o Firebase Storage, gerenciando o acesso as imagens.</p>
         </div>
         <div class="col-lg-5">
-          <h2 class="h4">Dark mode</h2>
-          <p>Switch to a low-light UI with the click of a button. Change colors with variables to match your branding.</p>
-        </div>
+          <h2 class="h4">Integrações</h2>
+          <p>Envio de email utilizandoo a biblioteca JavaMailSender do Spring Boot, e o envio de SMS utiliza o serviço externo <a href="https://www.smsdev.com.br/"> smsdev </a>.
       </div>
     </div>
   </section>

@@ -1,0 +1,14 @@
+---
+title: "Atleta"
+description: "Gerenciamento de participação do atleta em jogos e aulas nos centros esportivos."
+lead: "Gerenciamento de participação do atleta em jogos e aulas nos centros esportivos."
+date: 2020-11-12T13:26:54+01:00
+lastmod: 2020-11-12T13:26:54+01:00
+draft: false
+images: []
+menu:
+  docs:
+    parent: "help"
+weight: 640
+toc: true
+---
