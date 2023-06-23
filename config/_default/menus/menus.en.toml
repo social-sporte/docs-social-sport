@@ -15,7 +15,7 @@
   weight = 60
   identifier = "regras"
   url = "/docs/regras/" 
-
+ 
 # [[docs]]
 #   name = "Lorem"
 #   weight = 70
