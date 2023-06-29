@@ -61,11 +61,12 @@
     "postcss": "^8.4",
     "postcss-cli": "^10.0",
     "purgecss-whitelister": "^2.4",
+    "sass": "^1.63.6",
     "shx": "^0.3.4",
     "stylelint": "^14.9",
     "stylelint-config-standard-scss": "^4.0"
   },
   "otherDependencies": {
-    "hugo": "0.107.0"
+    "hugo": "0.111.3"
   }
 }
