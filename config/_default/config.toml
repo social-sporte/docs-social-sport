@@ -1,4 +1,4 @@
-baseURL = "http://localhost"
+baseURL = "https://docs-api-social-sport.netlify.app/"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
