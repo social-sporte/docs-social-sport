@@ -1,42 +1,15 @@
 [build]
-  publish = "public"
-  functions = "functions"
+  command = "hugo" # Comando para construir o site com o Hugo
+  publish = "public" # Diretório de saída do Hugo, onde os arquivos gerados serão armazenados
 
 [build.environment]
-  NODE_VERSION = "16.16.0"
-  NPM_VERSION = "8.11.0"
+  HUGO_VERSION = "0.111.3" # Versão específica do Hugo que você deseja usar (opcional)
 
-[context.production]
-  command = "npm run build"
+[context.production.environment]
+  HUGO_ENV = "production" # Define o ambiente de produção para o Hugo
 
-[context.deploy-preview]
-  command = "npm run build -- -b $DEPLOY_PRIME_URL"
+[context.split1]
+  command = "hugo --enableGitInfo" # Comando adicional para adicionar informações do Git
 
-[context.branch-deploy]
-  command = "npm run build -- -b $DEPLOY_PRIME_URL"
-
-[context.next]
-  command = "npm run build"
-
-[context.next.environment]
-  HUGO_ENV = "next"
-
-[[plugins]]
-  package = "netlify-plugin-submit-sitemap"
-
-	[plugins.inputs]
-    baseUrl = "https://doks.netlify.app/"
-    sitemapPath = "/sitemap.xml"
-    ignorePeriod = 0
-    providers = [
-      "google",
-      "yandex"
-    ]
-
-[dev]
-  framework = "#custom"
-  command = "npm run start"
-  targetPort = 1313
-  port = 8888
-  publish = "public"
-  autoLaunch = false
+[context.split1.environment]
+  HUGO_ENV = "production" # Define o ambiente de produção para o Hugo no contexto split1
