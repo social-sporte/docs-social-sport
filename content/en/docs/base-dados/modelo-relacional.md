@@ -20,6 +20,8 @@ Segue o desenho das relações entre as tabelas do banco de dados abaixo:
 
 ## Tabelas
 
+![Descrição da imagem](/images/modelo_base_dados.pdf)
+
 ### Segurança
 
 Composta pelas tabelas
