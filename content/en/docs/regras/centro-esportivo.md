@@ -99,9 +99,9 @@ Request:
 
 Retornos:  
 <span style="font-size: smaller;">200 OK  </span><br>
-<span style="font-size: smaller;">404 não encontrada</span>
-<span style="font-size: smaller;">403 não permitido</span>
-<span style="font-size: smaller;">401 não autorizado</span>
+<span style="font-size: smaller;">404 não encontrada</span>  <br>
+<span style="font-size: smaller;">403 não permitido</span>  <br>
+<span style="font-size: smaller;">401 não autorizado</span>  
 
 ```bash
 {
@@ -158,8 +158,8 @@ Request:
 
 Retornos:  
 <span style="font-size: smaller;">200 OK  </span><br>
-<span style="font-size: smaller;">404 não encontrada</span>
-<span style="font-size: smaller;">403 não permitido</span>
+<span style="font-size: smaller;">404 não encontrada</span><br>
+<span style="font-size: smaller;">403 não permitido</span><br>
 <span style="font-size: smaller;">401 não autorizado</span>
 
 
@@ -170,8 +170,8 @@ Request:
 
 Retornos:  
 <span style="font-size: smaller;">200 OK  </span><br>
-<span style="font-size: smaller;">404 não encontrada</span>
-<span style="font-size: smaller;">403 não permitido</span>
+<span style="font-size: smaller;">404 não encontrada</span><br>
+<span style="font-size: smaller;">403 não permitido</span><br>
 <span style="font-size: smaller;">401 não autorizado</span>
 
 ```bash
@@ -198,5 +198,5 @@ Request:
 
 Retornos:  
 <span style="font-size: smaller;">204 OK  </span><br>
-<span style="font-size: smaller;">403 não permitido</span>
+<span style="font-size: smaller;">403 não permitido</span><br>
 <span style="font-size: smaller;">401 não autorizado</span>
