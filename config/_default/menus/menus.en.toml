@@ -37,7 +37,7 @@
 [[main]]
   name = "Documentação"
   url = "/docs/base-dados/inicializando/"
-# url = "/docs/1.0/spring-boot/introduction/"
+# url = "/docs/1.0/spring-boot/quick-start/"
   weight = 10
 
 
@@ -48,10 +48,10 @@
 
 
 [[main]]
-  name = "Iniciando"
+  name = "Iniciar"
   weight = 30
   identifier = "get-started"
-  url = "/docs/spring-boot/introduction/"
+  url = "/docs/spring-boot/quick-start/"
 
 
 [[main]]
