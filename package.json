@@ -63,7 +63,7 @@
     "purgecss-whitelister": "^2.4",
     "sass": "^1.63.6",
     "shx": "^0.3.4",
-    "stylelint": "^14.9",
+    "stylelint": "^16.14",
     "stylelint-config-standard-scss": "^4.0"
   },
   "otherDependencies": {
